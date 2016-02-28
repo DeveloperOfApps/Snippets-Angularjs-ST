@@ -1,0 +1,17 @@
+<snippet>
+	<content><![CDATA[
+/*
+*Estructura básica de un módulo de Angularjs 
+*con Buenas Prcácticas
+*Autor: Efrain Rebolledo Pizarro
+*/
+(funtion(){
+	'use strict';
+	angular.module('${1:myModule}', []);
+})();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>modulebp</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

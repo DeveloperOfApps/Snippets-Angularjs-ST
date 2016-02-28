@@ -1,0 +1,33 @@
+<snippet>
+	<content><![CDATA[
+/*
+*Estructura básica de Angularjs con Buenas Prcácticas
+*Presione tap para ir cambiando los nombres de módulo,
+*controlador y servicios
+*Autor: Efrain Rebolledo Pizarro
+*/
+(function(){
+	'use strict';
+	angular.module('${1:miModulo}', []);
+	.controller('${2:myCtrl}', ${2:myCtrl});
+	//Agregar signo peso en inject
+	${2:myCtrl}.${3:''}inject['${4:Agregar servicios}'];
+	function ${2:myCtrl} (${4:Agregar servicios}) {
+	//Su código aquí
+	/*
+	*Ejemplo:
+	*var vm = this;
+	*vm.data =
+	*{
+	*	name: "Efrain",
+	*	fone: "+56987825310"
+	*};
+    */
+	}
+})();
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>module+ctrl</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

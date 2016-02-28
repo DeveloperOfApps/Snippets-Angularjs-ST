@@ -1,0 +1,11 @@
+<snippet>
+	<content><![CDATA[
+//Agregar signo peso en inject, 
+//además reemplazar el "ctrl" por el nombre del controlador actual
+${1:ctrl}.${2:''}inject['${3:Agregar servicios}'];
+]]></content>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<tabTrigger>inj</tabTrigger>
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
