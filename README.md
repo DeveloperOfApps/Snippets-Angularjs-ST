@@ -1,5 +1,5 @@
 # Snippets-Angularjs-ST
-Snippets para angularjs con buenas prácticas incluidas.
+Snippets para angularjs con buenas prácticas incluidas para sublimeText.
 
 Algunos snippets:
 <br>
